@@ -10,6 +10,14 @@
     "defaultExtension": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
     "mapping": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
   },
+  "news": {
+    "pageSize": "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js",
+    "serverUrl": "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js"
+  },
+  "middleware": "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js",
+  "robot": {
+    "ua": "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
     "key": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
@@ -167,7 +175,8 @@
     "license": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js",
     "dependencies": {
       "egg": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js"
+      "egg-view-nunjucks": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js",
+      "moment": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/config.default.js"

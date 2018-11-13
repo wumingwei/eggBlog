@@ -187,7 +187,7 @@
     },
     "env": "local",
     "name": "egg-blog",
-    "keys": "<String len: 14>",
+    "keys": "<String len: 24>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -205,7 +205,8 @@
       "license": "MIT",
       "dependencies": {
         "egg": "^2.13.0",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.22.2"
       },
       "devDependencies": {
         "egg-bin": "^4.9.0"
@@ -311,9 +312,21 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {}
+      ]
+    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
