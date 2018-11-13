@@ -4,3 +4,5 @@
 2018-11-13 19:59:28,958 INFO 47823 [Timer] /Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
 2018-11-13 20:00:39,433 INFO 47854 [Timer] /Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-14 00:00:00.000
 2018-11-13 20:00:39,434 INFO 47854 [Timer] /Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000
+2018-11-13 21:23:23,225 INFO 51771 [Timer] /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-11-14 00:00:00.000
+2018-11-13 21:23:23,226 INFO 51771 [Timer] /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-11-14 00:00:01.000

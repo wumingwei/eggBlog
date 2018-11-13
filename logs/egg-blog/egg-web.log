@@ -128,3 +128,20 @@
 2018-11-13 20:01:45,043 INFO 47886 [egg-watcher:application] watcher start success
 2018-11-13 20:01:45,051 INFO 47886 [egg:core] dump config after ready, 6ms
 2018-11-13 20:01:46,725 INFO 47886 [egg-view-nunjucks] loading templates from ["/Users/wumingwei/workspace/我的个人博客/egg-blog/app/view"]
+2018-11-13 21:23:23,003 INFO 51772 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-13 21:23:23,039 INFO 51772 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-13 21:23:23,039 INFO 51772 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-13 21:23:23,039 INFO 51772 [egg-multipart] stream mode enable
+2018-11-13 21:23:23,158 INFO 51772 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-13 21:23:23,162 INFO 51772 [egg-security] use csrf middleware
+2018-11-13 21:23:23,164 INFO 51772 [egg-security] use methodnoallow middleware
+2018-11-13 21:23:23,165 INFO 51772 [egg-security] use noopen middleware
+2018-11-13 21:23:23,167 INFO 51772 [egg-security] use nosniff middleware
+2018-11-13 21:23:23,168 INFO 51772 [egg-security] use xssProtection middleware
+2018-11-13 21:23:23,170 INFO 51772 [egg-security] use xframe middleware
+2018-11-13 21:23:23,171 INFO 51772 [egg-security] use dta middleware
+2018-11-13 21:23:23,171 INFO 51772 [egg-security] compose 7 middlewares into one security middleware
+2018-11-13 21:23:23,188 INFO 51772 [egg:core] dump config after load, 9ms
+2018-11-13 21:23:23,203 INFO 51772 [egg-watcher:application] watcher start success
+2018-11-13 21:23:23,211 INFO 51772 [egg:core] dump config after ready, 5ms
+2018-11-13 21:23:45,243 INFO 51772 [egg-view-nunjucks] loading templates from ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app/view"]
