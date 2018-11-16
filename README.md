@@ -8,8 +8,8 @@
 
 $ npm install egg --save
 
-
 Node.js >= 8.0.0 required.
+
 ```
 
 #### Getting Started
