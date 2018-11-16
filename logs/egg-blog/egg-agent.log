@@ -95,3 +95,144 @@
 2018-11-13 20:01:43,482 INFO 47854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/egg-blog/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336640144,"size":753,"blocks":8,"atimeMs":1542110503419.5198,"mtimeMs":1542110503419.989,"ctimeMs":1542110503419.989,"birthtimeMs":1542109809299.3806,"atime":"2018-11-13T12:01:43.420Z","mtime":"2018-11-13T12:01:43.420Z","ctime":"2018-11-13T12:01:43.420Z","birthtime":"2018-11-13T11:50:09.299Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-11-13 20:02:19,379 INFO 47854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/egg-blog/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336639838,"size":290,"blocks":8,"atimeMs":1542110539315.8787,"mtimeMs":1542110539316.4497,"ctimeMs":1542110539316.4497,"birthtimeMs":1542109440171.257,"atime":"2018-11-13T12:02:19.316Z","mtime":"2018-11-13T12:02:19.316Z","ctime":"2018-11-13T12:02:19.316Z","birthtime":"2018-11-13T11:44:00.171Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-11-13 20:03:15,533 INFO 47854 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/egg-blog/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336639838,"size":290,"blocks":8,"atimeMs":1542110595471.1616,"mtimeMs":1542110595471.6516,"ctimeMs":1542110595471.6516,"birthtimeMs":1542109440171.257,"atime":"2018-11-13T12:03:15.471Z","mtime":"2018-11-13T12:03:15.472Z","ctime":"2018-11-13T12:03:15.472Z","birthtime":"2018-11-13T11:44:00.171Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 21:23:21,604 INFO 51771 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 21:23:21,759 INFO 51771 [egg:core] dump config after load, 7ms
+2018-11-13 21:23:21,809 INFO 51771 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 21:23:21,810 INFO 51771 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 21:23:21,810 INFO 51771 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 21:23:21,810 INFO 51771 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 21:23:21,810 INFO 51771 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 21:23:21,811 INFO 51771 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 21:23:21,811 INFO 51771 [egg-watcher:agent] watcher start success
+2018-11-13 21:23:21,842 INFO 51771 [egg:core] dump config after ready, 5ms
+2018-11-13 21:24:37,295 INFO 51771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641216,"size":436,"blocks":8,"atimeMs":1542115477231.4436,"mtimeMs":1542115477231.9329,"ctimeMs":1542115477231.9329,"birthtimeMs":1542109440171.257,"atime":"2018-11-13T13:24:37.231Z","mtime":"2018-11-13T13:24:37.232Z","ctime":"2018-11-13T13:24:37.232Z","birthtime":"2018-11-13T11:44:00.171Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 21:24:39,141 INFO 51771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641216,"size":436,"blocks":8,"atimeMs":1542115479129.4692,"mtimeMs":1542115479129.8938,"ctimeMs":1542115479129.8938,"birthtimeMs":1542109440171.257,"atime":"2018-11-13T13:24:39.129Z","mtime":"2018-11-13T13:24:39.130Z","ctime":"2018-11-13T13:24:39.130Z","birthtime":"2018-11-13T11:44:00.171Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 22:23:13,696 INFO 53005 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:23:13,853 INFO 53005 [egg:core] dump config after load, 8ms
+2018-11-13 22:23:13,897 INFO 53005 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:23:13,897 INFO 53005 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:23:13,897 INFO 53005 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:23:13,898 INFO 53005 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:23:13,898 INFO 53005 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:23:13,898 INFO 53005 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:23:13,898 INFO 53005 [egg-watcher:agent] watcher start success
+2018-11-13 22:23:13,932 INFO 53005 [egg:core] dump config after ready, 5ms
+2018-11-13 22:25:42,876 INFO 53050 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:25:43,024 INFO 53050 [egg:core] dump config after load, 8ms
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:25:43,073 INFO 53050 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:25:43,074 INFO 53050 [egg-watcher:agent] watcher start success
+2018-11-13 22:25:43,099 INFO 53050 [egg:core] dump config after ready, 4ms
+2018-11-13 22:33:28,843 INFO 53207 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:33:28,955 INFO 53207 [egg:core] dump config after load, 8ms
+2018-11-13 22:33:28,999 INFO 53207 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:33:28,999 INFO 53207 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:33:29,000 INFO 53207 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:33:29,000 INFO 53207 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:33:29,000 INFO 53207 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:33:29,000 INFO 53207 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:33:29,000 INFO 53207 [egg-watcher:agent] watcher start success
+2018-11-13 22:33:29,027 INFO 53207 [egg:core] dump config after ready, 5ms
+2018-11-13 22:39:13,267 INFO 53308 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:39:13,397 INFO 53308 [egg:core] dump config after load, 10ms
+2018-11-13 22:39:13,446 INFO 53308 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:39:13,446 INFO 53308 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:39:13,447 INFO 53308 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:39:13,447 INFO 53308 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:39:13,447 INFO 53308 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:39:13,447 INFO 53308 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:39:13,447 INFO 53308 [egg-watcher:agent] watcher start success
+2018-11-13 22:39:13,473 INFO 53308 [egg:core] dump config after ready, 4ms
+2018-11-13 22:47:39,753 INFO 53429 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:47:39,854 INFO 53429 [egg:core] dump config after load, 9ms
+2018-11-13 22:47:39,897 INFO 53429 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:47:39,897 INFO 53429 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:47:39,897 INFO 53429 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:47:39,898 INFO 53429 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:47:39,898 INFO 53429 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:47:39,898 INFO 53429 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:47:39,898 INFO 53429 [egg-watcher:agent] watcher start success
+2018-11-13 22:47:39,927 INFO 53429 [egg:core] dump config after ready, 5ms
+2018-11-13 22:49:49,544 WARN 53429 [agent:development] reload worker because /Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js change
+2018-11-13 22:49:49,339 INFO 53429 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641217,"size":391,"blocks":8,"atimeMs":1542120589274.561,"mtimeMs":1542120589289.2512,"ctimeMs":1542120589289.2512,"birthtimeMs":1542102191785.3154,"atime":"2018-11-13T14:49:49.275Z","mtime":"2018-11-13T14:49:49.289Z","ctime":"2018-11-13T14:49:49.289Z","birthtime":"2018-11-13T09:43:11.785Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 22:49:52,421 WARN 53429 [agent:development] reload worker because /Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js change
+2018-11-13 22:49:52,169 INFO 53429 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641217,"size":0,"blocks":0,"atimeMs":1542120592157.6226,"mtimeMs":1542120592157.7178,"ctimeMs":1542120592157.7178,"birthtimeMs":1542102191785.3154,"atime":"2018-11-13T14:49:52.158Z","mtime":"2018-11-13T14:49:52.158Z","ctime":"2018-11-13T14:49:52.158Z","birthtime":"2018-11-13T09:43:11.785Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 22:49:52,219 INFO 53429 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641217,"size":391,"blocks":8,"atimeMs":1542120592157.6226,"mtimeMs":1542120592171.0264,"ctimeMs":1542120592171.0264,"birthtimeMs":1542102191785.3154,"atime":"2018-11-13T14:49:52.158Z","mtime":"2018-11-13T14:49:52.171Z","ctime":"2018-11-13T14:49:52.171Z","birthtime":"2018-11-13T09:43:11.785Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 22:50:02,108 INFO 53482 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:50:02,216 INFO 53482 [egg:core] dump config after load, 5ms
+2018-11-13 22:50:02,255 INFO 53482 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:50:02,255 INFO 53482 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:50:02,256 INFO 53482 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:50:02,256 INFO 53482 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:50:02,256 INFO 53482 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:50:02,256 INFO 53482 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:50:02,257 INFO 53482 [egg-watcher:agent] watcher start success
+2018-11-13 22:50:02,286 INFO 53482 [egg:core] dump config after ready, 4ms
+2018-11-13 22:52:47,342 INFO 53507 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:52:47,451 INFO 53507 [egg:core] dump config after load, 6ms
+2018-11-13 22:52:47,493 INFO 53507 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:52:47,493 INFO 53507 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:52:47,494 INFO 53507 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:52:47,494 INFO 53507 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:52:47,494 INFO 53507 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:52:47,494 INFO 53507 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:52:47,495 INFO 53507 [egg-watcher:agent] watcher start success
+2018-11-13 22:52:47,524 INFO 53507 [egg:core] dump config after ready, 8ms
+2018-11-13 22:54:52,170 INFO 53557 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 22:54:52,287 INFO 53557 [egg:core] dump config after load, 4ms
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 22:54:52,332 INFO 53557 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 22:54:52,333 INFO 53557 [egg-watcher:agent] watcher start success
+2018-11-13 22:54:52,357 INFO 53557 [egg:core] dump config after ready, 4ms
+2018-11-13 23:00:12,954 INFO 53557 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336662098,"size":843,"blocks":8,"atimeMs":1542121212881.2524,"mtimeMs":1542121212882.884,"ctimeMs":1542121212882.884,"birthtimeMs":1542115838554.7031,"atime":"2018-11-13T15:00:12.881Z","mtime":"2018-11-13T15:00:12.883Z","ctime":"2018-11-13T15:00:12.883Z","birthtime":"2018-11-13T13:30:38.555Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 23:00:13,164 WARN 53557 [agent:development] reload worker because /Users/wumingwei/workspace/我的个人博客/eggBlog/app/service/news.js change
+2018-11-13 23:00:21,358 INFO 53623 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 23:00:21,491 INFO 53623 [egg:core] dump config after load, 6ms
+2018-11-13 23:00:21,538 INFO 53623 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 23:00:21,538 INFO 53623 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 23:00:21,539 INFO 53623 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 23:00:21,539 INFO 53623 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 23:00:21,539 INFO 53623 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 23:00:21,539 INFO 53623 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 23:00:21,540 INFO 53623 [egg-watcher:agent] watcher start success
+2018-11-13 23:00:21,565 INFO 53623 [egg:core] dump config after ready, 4ms
+2018-11-13 23:05:41,913 INFO 53679 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 23:05:42,034 INFO 53679 [egg:core] dump config after load, 5ms
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 23:05:42,078 INFO 53679 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 23:05:42,079 INFO 53679 [egg-watcher:agent] watcher start success
+2018-11-13 23:05:42,107 INFO 53679 [egg:core] dump config after ready, 4ms
+2018-11-13 23:45:03,266 INFO 54003 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 23:45:03,383 INFO 54003 [egg:core] dump config after load, 7ms
+2018-11-13 23:45:03,434 INFO 54003 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 23:45:03,434 INFO 54003 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 23:45:03,435 INFO 54003 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 23:45:03,435 INFO 54003 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 23:45:03,435 INFO 54003 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 23:45:03,435 INFO 54003 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 23:45:03,435 INFO 54003 [egg-watcher:agent] watcher start success
+2018-11-13 23:45:03,465 INFO 54003 [egg:core] dump config after ready, 4ms
+2018-11-13 23:45:57,629 WARN 54003 [agent:development] reload worker because /Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js change
+2018-11-13 23:45:57,418 INFO 54003 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wumingwei/workspace/我的个人博客/eggBlog/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":4336641217,"size":401,"blocks":8,"atimeMs":1542123957351.5503,"mtimeMs":1542123957352.1072,"ctimeMs":1542123957352.1072,"birthtimeMs":1542102191785.3154,"atime":"2018-11-13T15:45:57.352Z","mtime":"2018-11-13T15:45:57.352Z","ctime":"2018-11-13T15:45:57.352Z","birthtime":"2018-11-13T09:43:11.785Z"},"remove":false,"isDirectory":false,"isFile":true}
+2018-11-13 23:46:05,238 INFO 54033 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-11-13 23:46:05,354 INFO 54033 [egg:core] dump config after load, 5ms
+2018-11-13 23:46:05,402 INFO 54033 [egg-watcher] Start watching: ["/Users/wumingwei/workspace/我的个人博客/eggBlog/app","/Users/wumingwei/workspace/我的个人博客/eggBlog/config","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks","/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy","/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"]
+2018-11-13 23:46:05,403 INFO 54033 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app"
+2018-11-13 23:46:05,403 INFO 54033 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/config"
+2018-11-13 23:46:05,403 INFO 54033 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks"
+2018-11-13 23:46:05,403 INFO 54033 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/mocks_proxy"
+2018-11-13 23:46:05,404 INFO 54033 [egg-watcher] Start watching: "/Users/wumingwei/workspace/我的个人博客/eggBlog/app.js"
+2018-11-13 23:46:05,404 INFO 54033 [egg-watcher:agent] watcher start success
+2018-11-13 23:46:05,439 INFO 54033 [egg:core] dump config after ready, 5ms

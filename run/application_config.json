@@ -86,26 +86,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-security@2.4.0@egg-security/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-schedule@3.4.0@egg-schedule/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-multipart@2.3.0@egg-multipart/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-development@2.4.1@egg-development/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-static@2.1.1@egg-static/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-view@2.1.0@egg-view/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/locales",
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/config/locales"
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-security@2.4.0@egg-security/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-i18n@2.0.0@egg-i18n/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-schedule@3.4.0@egg-schedule/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-multipart@2.3.0@egg-multipart/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-development@2.4.1@egg-development/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-static@2.1.1@egg-static/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view@2.1.0@egg-view/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/locales",
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -115,14 +115,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/wumingwei/workspace/我的个人博客/egg-blog/logs/egg-blog/egg-schedule.log"
+        "file": "/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog/egg-schedule.log"
       }
     },
     "multipart": {
@@ -159,7 +159,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/wumingwei/workspace/我的个人博客/egg-blog/app/public",
+      "dir": "/Users/wumingwei/workspace/我的个人博客/eggBlog/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -168,7 +168,7 @@
     },
     "view": {
       "root": [
-        "/Users/wumingwei/workspace/我的个人博客/egg-blog/app/view"
+        "/Users/wumingwei/workspace/我的个人博客/eggBlog/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -187,7 +187,7 @@
     },
     "env": "local",
     "name": "egg-blog",
-    "keys": "<String len: 14>",
+    "keys": "<String len: 24>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -205,15 +205,16 @@
       "license": "MIT",
       "dependencies": {
         "egg": "^2.13.0",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.22.2"
       },
       "devDependencies": {
         "egg-bin": "^4.9.0"
       }
     },
-    "baseDir": "/Users/wumingwei/workspace/我的个人博客/egg-blog",
+    "baseDir": "/Users/wumingwei/workspace/我的个人博客/eggBlog",
     "HOME": "/Users/wumingwei",
-    "rundir": "/Users/wumingwei/workspace/我的个人博客/egg-blog/run",
+    "rundir": "/Users/wumingwei/workspace/我的个人博客/eggBlog/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -244,7 +245,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/wumingwei/workspace/我的个人博客/egg-blog/logs/egg-blog",
+      "dir": "/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -311,9 +312,21 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
+    "middleware": [
+      "robot"
+    ],
+    "robot": {
+      "ua": [
+        {}
+      ]
+    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -335,8 +348,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -348,8 +361,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-security@2.4.0@egg-security",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-security@2.4.0@egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -361,8 +374,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -374,8 +387,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -385,8 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-i18n@2.0.0@egg-i18n",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -396,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -407,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-schedule@3.4.0@egg-schedule",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-schedule@3.4.0@egg-schedule",
       "version": "3.4.0"
     },
     "multipart": {
@@ -420,8 +433,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-multipart@2.3.0@egg-multipart",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-multipart@2.3.0@egg-multipart",
       "version": "2.3.0"
     },
     "development": {
@@ -435,8 +448,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-development@2.4.1@egg-development",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-development@2.4.1@egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -448,8 +461,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-logrotator@3.0.4@egg-logrotator",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator",
       "version": "3.0.4"
     },
     "static": {
@@ -459,8 +472,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-static@2.1.1@egg-static",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-static@2.1.1@egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -470,8 +483,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg@2.13.0@egg/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-view@2.1.0@egg-view",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg@2.13.0@egg/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view@2.1.0@egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -484,8 +497,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/wumingwei/workspace/我的个人博客/egg-blog/config/plugin.js",
-      "path": "/Users/wumingwei/workspace/我的个人博客/egg-blog/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "/Users/wumingwei/workspace/我的个人博客/eggBlog/config/plugin.js",
+      "path": "/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     }
   }

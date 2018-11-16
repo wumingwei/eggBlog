@@ -49,3 +49,303 @@ operator: "=="
 pid: 47855
 hostname: Vincent.local
 
+2018-11-13 22:48:04,015 ERROR 53430 [-/::1/-/7ms GET /news] nodejs.TypeError: Cannot destructure property `serverUrl` of 'undefined' or 'null'.
+    at NewsService.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/service/news.js:6:47)
+    at NewsController.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/controller/news.js:7:43)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 53430
+hostname: Vincent.local
+
+2018-11-13 22:48:33,573 ERROR 53430 [-/::1/-/1ms GET /news] nodejs.TypeError: Cannot destructure property `serverUrl` of 'undefined' or 'null'.
+    at NewsService.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/service/news.js:6:47)
+    at NewsController.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/controller/news.js:7:43)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 53430
+hostname: Vincent.local
+
+2018-11-13 22:48:40,746 ERROR 53430 [-/::1/-/0ms GET /news] nodejs.TypeError: Cannot destructure property `serverUrl` of 'undefined' or 'null'.
+    at NewsService.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/service/news.js:6:47)
+    at NewsController.list (/Users/wumingwei/workspace/我的个人博客/eggBlog/app/controller/news.js:7:43)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-core@4.11.0@egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
+    at dispatch (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 53430
+hostname: Vincent.local
+
+2018-11-13 22:50:13,378 ERROR 53483 [-/::1/-/5098ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5083,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53483
+hostname: Vincent.local
+
+2018-11-13 22:50:30,118 ERROR 53483 [-/::1/-/5009ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5008,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53483
+hostname: Vincent.local
+
+2018-11-13 22:51:41,137 ERROR 53483 [-/::1/-/5004ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53483
+hostname: Vincent.local
+
+2018-11-13 22:51:41,144 ERROR 53483 [-/::1/-/5017ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5012,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53483
+hostname: Vincent.local
+
+2018-11-13 22:53:12,070 ERROR 53508 [-/::1/-/5046ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5034,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53508
+hostname: Vincent.local
+
+2018-11-13 22:55:48,240 ERROR 53558 [-/::1/-/5049ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5038,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53558
+hostname: Vincent.local
+
+2018-11-13 22:56:00,443 ERROR 53558 [-/::1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53558
+hostname: Vincent.local
+
+2018-11-13 23:00:36,111 ERROR 53624 [-/::1/-/5050ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5029,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53624
+hostname: Vincent.local
+
+2018-11-13 23:00:54,203 ERROR 53624 [-/::1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53624
+hostname: Vincent.local
+
+2018-11-13 23:01:26,456 ERROR 53624 [-/::1/-/5003ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53624
+hostname: Vincent.local
+
+2018-11-13 23:05:56,912 ERROR 53680 [-/::1/-/5052ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5032,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 53680
+hostname: Vincent.local
+
+2018-11-13 23:45:11,605 ERROR 54004 [-/::1/-/5049ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5034,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 54004
+hostname: Vincent.local
+
+2018-11-13 23:45:25,173 ERROR 54004 [-/::1/-/5005ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 54004
+hostname: Vincent.local
+
+2018-11-13 23:46:15,325 ERROR 54040 [-/::1/-/5046ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5025,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 54040
+hostname: Vincent.local
+
+2018-11-13 23:49:29,250 ERROR 54040 [-/::1/-/5009ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_urllib@2.31.1@urllib/lib/urllib.js:849:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5007,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 54040
+hostname: Vincent.local
+

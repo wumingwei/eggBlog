@@ -4,16 +4,15 @@
 
 #### Installation
 
-
 ```bash
 
 $ npm install egg --save
 
-
 Node.js >= 8.0.0 required.
 
-#### Getting Started
+```
 
+#### Getting Started
 
 Follow the commands listed below.
 
@@ -24,7 +23,6 @@ $ npm install egg-init -g
 
 $ cd eggBlog
 $ npm install
-
 $ npm run dev
 
 ```
