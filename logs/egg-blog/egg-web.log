@@ -498,3 +498,99 @@
 2018-11-13 23:46:06,315 INFO 54040 [egg:core] dump config after load, 6ms
 2018-11-13 23:46:06,331 INFO 54040 [egg-watcher:application] watcher start success
 2018-11-13 23:46:06,338 INFO 54040 [egg:core] dump config after ready, 5ms
+2018-11-16 22:19:37,195 INFO 73562 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-16 22:19:37,223 INFO 73562 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-16 22:19:37,223 INFO 73562 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-16 22:19:37,223 INFO 73562 [egg-multipart] stream mode enable
+2018-11-16 22:19:37,378 INFO 73562 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-16 22:19:37,381 INFO 73562 [egg-security] use csrf middleware
+2018-11-16 22:19:37,384 INFO 73562 [egg-security] use methodnoallow middleware
+2018-11-16 22:19:37,385 INFO 73562 [egg-security] use noopen middleware
+2018-11-16 22:19:37,386 INFO 73562 [egg-security] use nosniff middleware
+2018-11-16 22:19:37,387 INFO 73562 [egg-security] use xssProtection middleware
+2018-11-16 22:19:37,387 INFO 73562 [egg-security] use xframe middleware
+2018-11-16 22:19:37,388 INFO 73562 [egg-security] use dta middleware
+2018-11-16 22:19:37,388 INFO 73562 [egg-security] compose 7 middlewares into one security middleware
+2018-11-16 22:19:37,407 INFO 73562 [egg:core] dump config after load, 7ms
+2018-11-16 22:19:37,426 INFO 73562 [egg-watcher:application] watcher start success
+2018-11-16 22:19:37,433 INFO 73562 [egg:core] dump config after ready, 5ms
+2018-11-17 22:03:04,630 INFO 74504 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-17 22:03:04,654 INFO 74504 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-17 22:03:04,654 INFO 74504 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-17 22:03:04,654 INFO 74504 [egg-multipart] stream mode enable
+2018-11-17 22:03:04,769 INFO 74504 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-17 22:03:04,772 INFO 74504 [egg-security] use csrf middleware
+2018-11-17 22:03:04,774 INFO 74504 [egg-security] use methodnoallow middleware
+2018-11-17 22:03:04,775 INFO 74504 [egg-security] use noopen middleware
+2018-11-17 22:03:04,777 INFO 74504 [egg-security] use nosniff middleware
+2018-11-17 22:03:04,778 INFO 74504 [egg-security] use xssProtection middleware
+2018-11-17 22:03:04,779 INFO 74504 [egg-security] use xframe middleware
+2018-11-17 22:03:04,780 INFO 74504 [egg-security] use dta middleware
+2018-11-17 22:03:04,780 INFO 74504 [egg-security] compose 7 middlewares into one security middleware
+2018-11-17 22:03:04,795 INFO 74504 [egg:core] dump config after load, 10ms
+2018-11-17 22:03:04,810 INFO 74504 [egg-watcher:application] watcher start success
+2018-11-17 22:03:04,820 INFO 74504 [egg:core] dump config after ready, 8ms
+2018-11-17 22:03:47,275 INFO 74552 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-17 22:03:47,306 INFO 74552 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-17 22:03:47,306 INFO 74552 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-17 22:03:47,306 INFO 74552 [egg-multipart] stream mode enable
+2018-11-17 22:03:47,407 INFO 74552 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-17 22:03:47,410 INFO 74552 [egg-security] use csrf middleware
+2018-11-17 22:03:47,412 INFO 74552 [egg-security] use methodnoallow middleware
+2018-11-17 22:03:47,413 INFO 74552 [egg-security] use noopen middleware
+2018-11-17 22:03:47,415 INFO 74552 [egg-security] use nosniff middleware
+2018-11-17 22:03:47,415 INFO 74552 [egg-security] use xssProtection middleware
+2018-11-17 22:03:47,417 INFO 74552 [egg-security] use xframe middleware
+2018-11-17 22:03:47,417 INFO 74552 [egg-security] use dta middleware
+2018-11-17 22:03:47,417 INFO 74552 [egg-security] compose 7 middlewares into one security middleware
+2018-11-17 22:03:47,431 INFO 74552 [egg:core] dump config after load, 7ms
+2018-11-17 22:03:47,443 INFO 74552 [egg-watcher:application] watcher start success
+2018-11-17 22:03:47,449 INFO 74552 [egg:core] dump config after ready, 4ms
+2018-11-17 22:04:21,731 INFO 74602 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-17 22:04:21,916 INFO 74602 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-17 22:04:21,916 INFO 74602 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-17 22:04:21,917 INFO 74602 [egg-multipart] stream mode enable
+2018-11-17 22:04:22,126 INFO 74602 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-17 22:04:22,129 INFO 74602 [egg-security] use csrf middleware
+2018-11-17 22:04:22,130 INFO 74602 [egg-security] use methodnoallow middleware
+2018-11-17 22:04:22,130 INFO 74602 [egg-security] use noopen middleware
+2018-11-17 22:04:22,131 INFO 74602 [egg-security] use nosniff middleware
+2018-11-17 22:04:22,132 INFO 74602 [egg-security] use xssProtection middleware
+2018-11-17 22:04:22,133 INFO 74602 [egg-security] use xframe middleware
+2018-11-17 22:04:22,133 INFO 74602 [egg-security] use dta middleware
+2018-11-17 22:04:22,133 INFO 74602 [egg-security] compose 7 middlewares into one security middleware
+2018-11-17 22:04:22,143 INFO 74602 [egg:core] dump config after load, 6ms
+2018-11-17 22:04:22,158 INFO 74602 [egg-watcher:application] watcher start success
+2018-11-17 22:04:22,170 INFO 74602 [egg:core] dump config after ready, 8ms
+2018-11-17 22:16:21,673 INFO 74661 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-17 22:16:21,728 INFO 74661 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-17 22:16:21,728 INFO 74661 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-17 22:16:21,729 INFO 74661 [egg-multipart] stream mode enable
+2018-11-17 22:16:22,241 INFO 74661 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-17 22:16:22,244 INFO 74661 [egg-security] use csrf middleware
+2018-11-17 22:16:22,246 INFO 74661 [egg-security] use methodnoallow middleware
+2018-11-17 22:16:22,247 INFO 74661 [egg-security] use noopen middleware
+2018-11-17 22:16:22,248 INFO 74661 [egg-security] use nosniff middleware
+2018-11-17 22:16:22,249 INFO 74661 [egg-security] use xssProtection middleware
+2018-11-17 22:16:22,250 INFO 74661 [egg-security] use xframe middleware
+2018-11-17 22:16:22,251 INFO 74661 [egg-security] use dta middleware
+2018-11-17 22:16:22,251 INFO 74661 [egg-security] compose 7 middlewares into one security middleware
+2018-11-17 22:16:22,267 INFO 74661 [egg:core] dump config after load, 9ms
+2018-11-17 22:16:22,289 INFO 74661 [egg-watcher:application] watcher start success
+2018-11-17 22:16:22,312 INFO 74661 [egg:core] dump config after ready, 20ms
+2018-11-17 22:16:53,298 INFO 74677 [egg:logger] init all loggers with options: {"dir":"/Users/wumingwei/workspace/我的个人博客/eggBlog/logs/egg-blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-11-17 22:16:53,326 INFO 74677 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/clean_log.js
+2018-11-17 22:16:53,326 INFO 74677 [egg-schedule]: register schedule /Users/wumingwei/workspace/我的个人博客/eggBlog/node_modules/_egg-logrotator@3.0.4@egg-logrotator/app/schedule/rotate_by_file.js
+2018-11-17 22:16:53,326 INFO 74677 [egg-multipart] stream mode enable
+2018-11-17 22:16:53,421 INFO 74677 [egg-static] starting static serve /public/ -> /Users/wumingwei/workspace/我的个人博客/eggBlog/app/public
+2018-11-17 22:16:53,423 INFO 74677 [egg-security] use csrf middleware
+2018-11-17 22:16:53,425 INFO 74677 [egg-security] use methodnoallow middleware
+2018-11-17 22:16:53,425 INFO 74677 [egg-security] use noopen middleware
+2018-11-17 22:16:53,427 INFO 74677 [egg-security] use nosniff middleware
+2018-11-17 22:16:53,428 INFO 74677 [egg-security] use xssProtection middleware
+2018-11-17 22:16:53,429 INFO 74677 [egg-security] use xframe middleware
+2018-11-17 22:16:53,430 INFO 74677 [egg-security] use dta middleware
+2018-11-17 22:16:53,430 INFO 74677 [egg-security] compose 7 middlewares into one security middleware
+2018-11-17 22:16:53,443 INFO 74677 [egg:core] dump config after load, 6ms
+2018-11-17 22:16:53,453 INFO 74677 [egg-watcher:application] watcher start success
+2018-11-17 22:16:53,459 INFO 74677 [egg:core] dump config after ready, 4ms
